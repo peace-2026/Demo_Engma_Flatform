@@ -1770,7 +1770,6 @@ function HomeDashboard({ onNavigateOrders }: { onNavigateOrders: (intent: Omit<D
         <section className="home-panel">
           <div className="home-panel-head">
             <h2>服务日历</h2>
-            <button className="link-btn" onClick={() => onNavigateOrders({ selectedOrderId: "ORD-GPO-202607-001" })}>查看全部</button>
           </div>
           <div className="calendar-list">
             {calendarItems.map((item) => (
@@ -1784,7 +1783,6 @@ function HomeDashboard({ onNavigateOrders }: { onNavigateOrders: (intent: Omit<D
         <section className="home-panel">
           <div className="home-panel-head">
             <h2>我的待办</h2>
-            <button className="link-btn" onClick={() => onNavigateOrders({ selectedOrderId: "ORD-EOR-ONB-001" })}>批量处理</button>
           </div>
           <div className="todo-list">
             {todos.map((todo) => (
